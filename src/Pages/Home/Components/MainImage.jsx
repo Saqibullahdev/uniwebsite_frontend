@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 const MainImage = () => {
   return (
     <div className="relative">
-      <video className="" loop autoPlay muted>
+{/*       <video className="" loop autoPlay muted>
         <source src="/main.mp4" type="video/mp4" />
         Your browser does not support the video tag.
-      </video>
+      </video> */}
       <div
         className="absolute w-full h-full top-0 left-0 text-black text-2xl flex justify-center  "
         style={{ background: "rgba(0,0,0,0.2)" }}
